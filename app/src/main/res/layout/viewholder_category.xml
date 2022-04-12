@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/categories"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="7dp"
+    android:layout_marginEnd="15dp"
+    android:elevation="3dp">
+
+
+    <ImageView
+        android:id="@+id/categoryBack"
+        android:layout_width="71dp"
+        android:layout_height="71dp"
+        android:background="@drawable/z_white_rounded"
+        android:elevation="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0"
+        />
+
+    <ImageView
+        android:id="@+id/categoryPic"
+        android:elevation="20dp"
+        android:layout_width="29dp"
+        android:layout_height="31dp"
+        android:viewportWidth="29"
+        android:viewportHeight="31"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.304"
+        app:srcCompat="@drawable/ic_phone" />
+
+
+
+    <TextView
+        android:id="@+id/categoryName"
+        android:layout_width="54dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="7dp"
+        android:text="Computer"
+        android:gravity="center_horizontal|top"
+        android:textColor="@color/blue"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="@+id/categoryBack"
+        app:layout_constraintStart_toStartOf="@+id/categoryBack"
+        app:layout_constraintTop_toBottomOf="@+id/categoryBack" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/f1/AndroidStudioProjects/mainScreen_activity/app/src/main/res/drawable/z_orange_rounded.xml" value="0.175" />
+        <entry key="..\:/Users/f1/AndroidStudioProjects/mainScreen_activity/app/src/main/res/layout/activity_main.xml" value="0.136" />
+        <entry key="..\:/Users/f1/AndroidStudioProjects/mainScreen_activity/app/src/main/res/layout/appbar.xml" value="0.4" />
+        <entry key="..\:/Users/f1/AndroidStudioProjects/mainScreen_activity/app/src/main/res/layout/bottombar.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/f1/AndroidStudioProjects/mainScreen_activity/app/src/main/res/layout/component_search.xml" value="0.2056159420289855" />
+        <entry key="..\:/Users/f1/AndroidStudioProjects/mainScreen_activity/app/src/main/res/layout/fragment_search.xml" value="0.2056159420289855" />
+        <entry key="..\:/Users/f1/AndroidStudioProjects/mainScreen_activity/app/src/main/res/layout/viewholder_catalog.xml" value="0.4" />
+        <entry key="..\:/Users/f1/AndroidStudioProjects/mainScreen_activity/app/src/main/res/layout/viewholder_category.xml" value="0.4" />
+        <entry key="..\:/Users/f1/AndroidStudioProjects/mainScreen_activity/app/src/main/res/layout/viewholder_commercial.xml" value="0.2056159420289855" />
+        <entry key="..\:/Users/f1/AndroidStudioProjects/mainScreen_activity/app/src/main/res/layout/viewholder_search.xml" value="0.2056159420289855" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
