@@ -13,18 +13,23 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.projects.mainscreen_activity.R;
 import com.projects.mainscreen_activity.model.BestSellers;
-import com.projects.mainscreen_activity.model.HotSales;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class BSAdapter extends RecyclerView.Adapter<BSAdapter.BSViewHolder>{
 
-    Context context;
-    List<BestSellers> bestSellers;
+    private Context context;
+    private List<BestSellers> bestSellers;
 
-    public BSAdapter(Context context, List<BestSellers> bestSellers) {
+    public BSAdapter(Context context) {
         this.context = context;
-        this.bestSellers = bestSellers;
+        this.bestSellers = new ArrayList<>();
+    }
+
+    public void addItems(List<BestSellers> items) {
+        bestSellers.addAll(items);
+        notifyDataSetChanged();
     }
 
     @NonNull
