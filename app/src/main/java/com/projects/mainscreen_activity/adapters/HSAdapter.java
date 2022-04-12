@@ -13,8 +13,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.projects.mainscreen_activity.R;
 import com.projects.mainscreen_activity.model.HotSales;
-import com.projects.mainscreen_activity.model.MSCategories;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class HSAdapter extends RecyclerView.Adapter<HSAdapter.HSViewHolder> {
@@ -22,9 +22,14 @@ public class HSAdapter extends RecyclerView.Adapter<HSAdapter.HSViewHolder> {
     Context context;
     List<HotSales> hotSales;
 
-    public HSAdapter(Context context, List<HotSales> hotSales) {
+    public HSAdapter(Context context) {
         this.context = context;
-        this.hotSales = hotSales;
+        this.hotSales = new ArrayList<>();
+    }
+
+    public void addItems(List<HotSales> items) {
+        hotSales.addAll(items);
+        notifyDataSetChanged();
     }
 
     @NonNull
