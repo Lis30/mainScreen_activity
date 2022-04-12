@@ -70,8 +70,8 @@ public void CatInit(){
 
 public void GetData(){
 
-    List<HotSales> hotSales = new ArrayList<>();
-    List<BestSellers> bestSellers = new ArrayList<>();
+    ArrayList<HotSales> hotSales = new ArrayList<>();
+    ArrayList<BestSellers> bestSellers = new ArrayList<>();
 
     Retrofit retrofit = new Retrofit.Builder()
             .baseUrl("https://run.mocky.io/v3/")
@@ -89,8 +89,8 @@ public void GetData(){
 
             MainScreenUnite MSUnite = response.body();
 
-                List<HotSales> hotSales  = new ArrayList<>(Arrays.asList(MSUnite.getHome_store()));
-                List<BestSellers> bestSellers = new ArrayList<>(Arrays.asList(MSUnite.getBest_seller()));
+                ArrayList hotSales  = new ArrayList(Arrays.asList(MSUnite.getHome_store()));
+                ArrayList bestSellers = new ArrayList(Arrays.asList(MSUnite.getBest_seller()));
 
             }
 

@@ -2,6 +2,8 @@ package com.projects.mainscreen_activity.network;
 
 import com.projects.mainscreen_activity.MainScreenUnite;
 
+import java.util.List;
+
 import retrofit2.Call;
 import retrofit2.http.GET;
 
